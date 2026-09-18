@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "it_ba38aeae",
+      "kind": "task",
+      "title": "you have a meeting",
+      "date": "2026-09-17",
+      "time": "16:00",
+      "all_day": false,
+      "reminder_min": 0,
+      "repeat": null,
+      "done": false,
+      "source": "ui",
+      "created": "2026-09-17T02:05:31",
+      "fired": {
+        "2026-09-17": "missed@2026-09-18T22:34:37"
+      }
+    }
+  ],
+  "notes": [],
+  "state": {
+    "briefed": "2026-09-13",
+    "pruned": "2026-09-18"
+  }
+}

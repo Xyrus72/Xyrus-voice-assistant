@@ -1,0 +1,33 @@
+# Music lexicon for the song path (xyrus/actions/web.lexicon_correct): artists and titles Whisper tends
+# to mishear when the mic is faint ("if shown you by icons" = Ishwar by Vikings, "ellen hook" = Alan Walker).
+# One entry per line, UTF-8, '#' starts a comment. Single words are matched per query word (difflib >= 0.8);
+# multi-word entries are matched as n-grams of query words (sound-alike keys, difflib >= 0.8).
+# Add whatever you ask for often - the file is read once per process.
+
+# Bangla bands / songs
+Vikings
+Ishwar
+Artcell
+Warfaze
+Shironamhin
+Aurthohin
+Black
+Chondrobindu
+Amar Bhindeshi Tara
+
+# English
+Alan Walker
+Faded
+Tired
+Alone
+Ed Sheeran
+Shape of You
+The Weeknd
+Blinding Lights
+Imagine Dragons
+Believer
+
+# Hindi
+Arijit Singh
+Kesariya
+Tum Hi Ho

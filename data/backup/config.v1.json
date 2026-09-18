@@ -1,0 +1,20 @@
+{
+  "voice_replies": false,
+  "confirm_shutdown": true,
+  "apps": {
+    "chrome": "chrome",
+    "browser": "chrome",
+    "edge": "msedge",
+    "youtube": "https://www.youtube.com",
+    "spotify": "spotify:",
+    "notepad": "notepad",
+    "calculator": "calc",
+    "explorer": "explorer",
+    "files": "explorer",
+    "code": "code",
+    "settings": "ms-settings:",
+    "task manager": "taskmgr",
+    "terminal": "wt",
+    "discord": "discord:"
+  }
+}

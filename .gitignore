@@ -1,0 +1,15 @@
+# --- Too big for GitHub (100 MB/file limit) — downloaded/built by setup.ps1, see README ---
+# Whisper weights (~7.9 GB): whisper-large-v3, -turbo, -bn, -small each have a >100 MB model.bin.
+# The small metadata files (config.json, tokenizer.json, vocabulary.json, README.md) ARE kept so the
+# repo records which models are used.
+models/**/model.bin
+
+# Python virtual environments (machine-specific, recreated by pip from requirements*.txt)
+venv/
+venv-convert/
+_download_cache/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo

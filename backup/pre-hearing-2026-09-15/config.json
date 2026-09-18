@@ -1,0 +1,106 @@
+{
+  "version": 2,
+  "voice_replies": true,
+  "confirm_shutdown": true,
+  "shutdown_delay_s": 10,
+  "address_as": "sir",
+  "user_name": "",
+  "wake_words": [
+    "cyrus",
+    "zeros",
+    "virus",
+    "cirrus"
+  ],
+  "wake_replies": [
+    "Waiting for your command, sir.",
+    "At your service, sir.",
+    "Yes, sir?",
+    "I'm listening, sir."
+  ],
+  "command_window_s": 0,
+  "confirm_window_s": 12,
+  "follow_up": true,
+  "follow_up_s": 8,
+  "follow_up_after_alert_s": 20,
+  "dialogue_timeout_s": 20,
+  "chime_on_wake": false,
+  "startup_greeting": "speak",
+  "briefing_on_startup": true,
+  "min_speech_peak": 0.02,
+  "mic": {
+    "name": null,
+    "hostapi": "MME"
+  },
+  "clap": {
+    "enabled": true,
+    "claps": 3,
+    "min_peak": 0.12
+  },
+  "tts": {
+    "voice": null,
+    "rate": 0,
+    "volume": 100
+  },
+  "youtube_lookup": true,
+  "hotkeys": {
+    "show_window": "ctrl+alt+x",
+    "push_to_talk": "ctrl+alt+space",
+    "stop_speaking": "ctrl+alt+s"
+  },
+  "apps": {
+    "chrome": "chrome",
+    "browser": "chrome",
+    "edge": "msedge",
+    "youtube": "https://www.youtube.com",
+    "spotify": "spotify:",
+    "notepad": "notepad",
+    "calculator": "calc",
+    "explorer": "explorer",
+    "files": "explorer",
+    "code": "code",
+    "settings": "ms-settings:",
+    "task manager": "taskmgr",
+    "terminal": "wt",
+    "discord": "discord:",
+    "bluetooth settings": "ms-settings:bluetooth",
+    "sound settings": "ms-settings:sound",
+    "display settings": "ms-settings:display",
+    "network settings": "ms-settings:network",
+    "windows update": "ms-settings:windowsupdate",
+    "downloads": "shell:Downloads",
+    "documents": "shell:Personal",
+    "pictures": "shell:My Pictures",
+    "recycle bin": "shell:RecycleBinFolder",
+    "device manager": "devmgmt.msc",
+    "control panel": "control"
+  },
+  "custom_commands": [],
+  "calendar": {
+    "default_reminder_min": 10,
+    "all_day_reminder_time": "09:00",
+    "catch_up_min": 120,
+    "snooze_minutes": 10,
+    "morning_brief": true,
+    "morning_brief_time": "08:30",
+    "waking_hours": [
+      7,
+      23
+    ],
+    "repeat_unacked_after_min": 2,
+    "toast": true
+  },
+  "quiet_hours": null,
+  "weather": {
+    "enabled": false,
+    "city": ""
+  },
+  "window": {
+    "geometry": "1000x700+130+130",
+    "last_tab": "Home",
+    "show_noise": false,
+    "tray_hint_shown": true
+  },
+  "ui": {
+    "appearance": "light"
+  }
+}

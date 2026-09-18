@@ -1,0 +1,7 @@
+vosk
+sounddevice
+comtypes
+pystray
+pillow
+customtkinter
+psutil

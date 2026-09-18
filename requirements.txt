@@ -1,0 +1,59 @@
+# Xyrus v2 - exact versions from the working venv on the build PC (Python 3.13.6, Windows 11), 2026-09-14.
+# setup.ps1 installs these into venv\.  pyttsx3 is NOT a requirement and must never be imported (it hangs here).
+
+# speech in/out, window, tray, Windows control
+vosk==0.3.45
+sounddevice==0.5.6
+comtypes==1.4.16
+pystray==0.19.5
+pillow==12.3.0
+customtkinter==6.0.0
+psutil==7.2.2
+pycaw==20251023
+pywin32==312
+screen_brightness_control==0.27.2
+keyboard==0.13.5
+
+# Whisper for free text only (song names, search text, calendar titles) - hearing.py.
+# msvc-runtime puts msvcp140.dll (needed by ctranslate2) inside the venv.
+faster-whisper==1.2.1
+msvc-runtime==14.44.35112
+
+# Calendar tab typed quick-add fallback (dates.parse_typed). Not installed on the build PC yet - it is
+# waiting for the user's OK. Without it, quick-add still understands everything the voice parser does.
+# parsedatetime==2.6
+
+# dependencies of the packages above, pinned to what runs on the build PC
+anyio==4.15.1
+av==18.1.0
+certifi==2026.7.22
+cffi==2.1.1
+charset-normalizer==3.5.1
+click==8.5.0
+colorama==0.4.6
+ctranslate2==4.8.2
+darkdetect==0.8.0
+filelock==3.32.6
+flatbuffers==25.12.19
+fsspec==2026.7.0
+h11==0.16.0
+hf-xet==1.6.0
+httpcore==1.0.9
+httpx==0.28.1
+huggingface_hub==1.31.0
+idna==3.19
+numpy==2.5.3
+onnxruntime==1.30.0
+packaging==26.3
+protobuf==7.36.1
+pycparser==3.0
+PyYAML==6.0.3
+requests==2.34.2
+six==1.17.0
+srt==3.5.3
+tokenizers==0.23.2
+tqdm==4.70.1
+typing_extensions==4.16.0
+urllib3==2.7.0
+websockets==17.1
+WMI==1.5.1
